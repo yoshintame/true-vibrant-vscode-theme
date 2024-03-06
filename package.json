@@ -1,0 +1,21 @@
+{
+  "name": "true-vibrant",
+  "displayName": "true-vibrant",
+  "description": "True vibrancy theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "True Vibrant",
+        "uiTheme": "vs-dark",
+        "path": "./themes/True Vibrant-color-theme.json"
+      }
+    ]
+  }
+}

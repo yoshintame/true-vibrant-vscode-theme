@@ -1,0 +1,56 @@
+.quick-input-widget {
+  top: 45px !important;
+}
+
+/* Cursor chat md blocks fix */
+.ai-chat-scrollable .monaco-editor {
+  background: transparent !important;
+}
+.anysphere-markdown-container-root .monaco-editor .monaco-editor-background {
+  background: transparent !important;
+}
+
+/* Cursor Active Bar Fix */
+.sidebar > div > div > div:nth-child(1) > div {
+  background: transparent !important;
+}
+
+.monaco-list-rows {
+  background: transparent !important;
+}
+.monaco-tree-sticky-container {
+  background: #262626 !important;
+  backdrop-filter: blur(1.5rem);
+}
+
+/* Scrollbar */
+.scrollbar.horizontal {
+  height: 8px !important; /* Corrected property name from 'hight' to 'height' */
+}
+.scrollbar.horizontal .slider {
+  border-radius: 9999px !important;
+  height: 8px !important; /* Corrected property name from 'hight' to 'height' */
+}
+.scrollbar.vertical {
+  width: 8px !important;
+}
+.scrollbar.vertical .slider {
+  border-radius: 9999px !important;
+  width: 8px !important;
+}
+
+/* Title */
+.title-actions .actions-container {
+  display: none;
+}
+.title-label h2 {
+  visibility: hidden;
+  position: relative;
+}
+.title-label h2:after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "EXPLORER";
+}

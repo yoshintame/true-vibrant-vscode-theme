@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "True Vibrant",
+        "label": "True Vibrant (Xcode tokens)",
         "uiTheme": "vs-dark",
-        "path": "./themes/True Vibrant-color-theme.json"
+        "path": "./themes/true-vibrant-xcode-color-theme.json"
       }
     ]
   }

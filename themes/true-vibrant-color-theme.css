@@ -1,5 +1,11 @@
+/* Palete modal */
 .quick-input-widget {
   top: 45px !important;
+}
+
+/* No open tabs background fix */
+.tabs:not(:has(.tab)) {
+  background-color: rgba(00, 00, 00, 00) !important;
 }
 
 /* Cursor chat md blocks fix */
@@ -53,4 +59,4 @@
   top: 0;
   left: 0;
   content: "EXPLORER";
-}
+} */

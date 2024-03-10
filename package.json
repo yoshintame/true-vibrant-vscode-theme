@@ -9,13 +9,23 @@
   "categories": [
     "Themes"
   ],
+  "scripts": {
+    "start": "nodemon --watch src src/index.ts",
+    "build": "node src/index.ts && mkdir -p build",
+    "prepublishOnly": "npm run build && vsce publish"
+  },
   "contributes": {
     "themes": [
       {
-        "label": "True Vibrant (Xcode tokens)",
+        "label": "True Vibrant (Xcode)",
         "uiTheme": "vs-dark",
-        "path": "./themes/true-vibrant-xcode-color-theme.json"
+        "path": "./themes/true-vibrant-xcode.json"
       }
     ]
+  },
+  "dependencies": {
+    "@types/node": "^20.11.25",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
   }
 }

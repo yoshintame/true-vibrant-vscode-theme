@@ -1,18 +1,34 @@
+import { error } from "console";
 import fs from "fs/promises";
-import { compileTheme } from "./theme";
+import { themes } from "./themes";
+import { toKebabCase } from "./utils";
 
 async function main() {
-  const defaultTheme = await compileTheme();
-
   try {
     await fs.mkdir("./themes", { recursive: true });
-    await fs.writeFile(
-      "./themes/true-vibrant-xcode.json",
-      JSON.stringify(defaultTheme, null, 2)
-    );
-  } catch (error) {
+  } catch {
     console.error(error);
     process.exit(1);
+  }
+
+  for (const theme of themes) {
+    try {
+      const fileName = toKebabCase(`${theme.colors.name}-${theme.tokens.name}`);
+      const path = `./themes/${fileName}.json`;
+
+      const themeCompiled = {
+        name: `${theme.colors.name} (${theme.tokens.name})`,
+        colors: theme.colors.colors,
+        tokenColors: theme.tokens.tokens,
+      };
+
+      console.log(path);
+
+      await fs.writeFile(path, JSON.stringify(themeCompiled, null, 2));
+    } catch (error) {
+      console.error(error);
+      process.exit(1);
+    }
   }
 }
 

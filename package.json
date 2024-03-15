@@ -10,8 +10,8 @@
     "Themes"
   ],
   "scripts": {
-    "start": "nodemon --watch src src/index.ts",
-    "build": "node src/index.ts && mkdir -p build",
+    "dev": "ts-node-dev --watch src --respawn src/index.ts",
+    "build": "ts-node src/index.ts && mkdir -p build",
     "prepublishOnly": "npm run build && vsce publish"
   },
   "contributes": {
@@ -27,5 +27,8 @@
     "@types/node": "^20.11.25",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
   }
 }

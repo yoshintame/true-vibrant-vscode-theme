@@ -38,13 +38,12 @@ export const trueVibrantColors: ThemeColors = {
     "progressBar.background": vars.accent,
 
     // List
-    "list.activeSelectionBackground": "#212121",
+    "list.activeSelectionBackground": "#094771f0",
     "list.activeSelectionForeground": "#F5F5F5",
-    "list.focusBackground": "#292929",
     "list.highlightForeground": "#EAEAEA",
-    "list.hoverBackground": "#262626",
-    "list.hoverForeground": "#9E9E9E",
-    "list.inactiveSelectionBackground": "#212121",
+    "list.hoverBackground": "#F5F5F510",
+    "list.hoverForeground": "#F5F5F5",
+    "list.inactiveSelectionBackground": "#F5F5F515",
     "list.inactiveSelectionForeground": "#F5F5F5",
 
     // Settings
@@ -114,7 +113,7 @@ export const trueVibrantColors: ThemeColors = {
     "editor.foreground": vars.mainForeground,
 
     "editorLineNumber.activeForeground": vars.mainForeground,
-    "editorLineNumber.foreground": "#6E7681",
+    "editorLineNumber.foreground": "#86868650",
     "editorOverviewRuler.border": "#010409",
 
     // Badge

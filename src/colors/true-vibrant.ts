@@ -1,7 +1,10 @@
 export const name = "True Vibrant";
 
 const colors = {
+  accent: "#0078D4",
   mainForeground: "#CCCCCC",
+  uiItemsBorder: "#3C3C3C",
+  uiItemsBackground: "#313131",
 };
 
 export const themeColors = {
@@ -10,30 +13,40 @@ export const themeColors = {
   "chat.slashCommandForeground": "#40A6FF",
 
   // Checkbox
-  "checkbox.background": "#313131",
-  "checkbox.border": "#3C3C3C",
+  "checkbox.background": colors.uiItemsBackground,
+  "checkbox.border": colors.uiItemsBorder,
 
   // Dropdown
-  "dropdown.background": "#313131",
-  "dropdown.border": "#3C3C3C",
+  "dropdown.background": colors.uiItemsBackground,
+  "dropdown.border": colors.uiItemsBorder,
   "dropdown.foreground": colors.mainForeground,
   "dropdown.listBackground": "#1F1F1F",
 
   // General
   errorForeground: "#F85149",
-  focusBorder: "#0078D4",
+  focusBorder: colors.accent,
   foreground: colors.mainForeground,
   descriptionForeground: "#9D9D9D",
   "icon.foreground": colors.mainForeground,
   "keybindingLabel.foreground": colors.mainForeground,
   "menu.background": "#1F1F1F",
   "debugToolBar.background": "#181818",
-  "pickerGroup.border": "#3C3C3C",
-  "progressBar.background": "#0078D4",
+  "pickerGroup.border": colors.uiItemsBorder,
+  "progressBar.background": colors.accent,
+
+  // List
+  "list.activeSelectionBackground": "#212121",
+  "list.activeSelectionForeground": "#F5F5F5",
+  "list.focusBackground": "#292929",
+  "list.highlightForeground": "#EAEAEA",
+  "list.hoverBackground": "#262626",
+  "list.hoverForeground": "#9E9E9E",
+  "list.inactiveSelectionBackground": "#212121",
+  "list.inactiveSelectionForeground": "#F5F5F5",
 
   // Settings
-  "settings.dropdownBackground": "#313131",
-  "settings.dropdownBorder": "#3C3C3C",
+  "settings.dropdownBackground": colors.uiItemsBackground,
+  "settings.dropdownBorder": colors.uiItemsBorder,
   "settings.headerForeground": "#FFFFFF",
   "settings.modifiedItemIndicator": "#BB800966",
 
@@ -49,7 +62,7 @@ export const themeColors = {
 
   // Welcome Page
   "welcomePage.tileBackground": "#2B2B2B",
-  "welcomePage.progress.foreground": "#0078D4",
+  "welcomePage.progress.foreground": colors.accent,
 
   // Activiry Bar
   "activityBar.background": "#00000090",
@@ -106,17 +119,17 @@ export const themeColors = {
   "badge.foreground": "#F8F8F8",
 
   // Button
-  "button.background": "#0078D4",
+  "button.background": colors.accent,
   "button.border": "#FFFFFF12",
   "button.foreground": "#FFFFFF",
   "button.hoverBackground": "#026EC1",
-  "button.secondaryBackground": "#313131",
+  "button.secondaryBackground": colors.uiItemsBackground,
   "button.secondaryForeground": colors.mainForeground,
   "button.secondaryHoverBackground": "#3C3C3C",
 
   // Input
-  "input.background": "#313131",
-  "input.border": "#3C3C3C",
+  "input.background": colors.uiItemsBackground,
+  "input.border": colors.uiItemsBorder,
   "input.foreground": colors.mainForeground,
   "input.placeholderForeground": "#989898",
   "inputOption.activeBackground": "#2489DB82",
@@ -124,7 +137,7 @@ export const themeColors = {
 
   // Panel
   "panel.background": "#00000090",
-  "panel.border": "#00000000", // layout border
+  "panel.border": "#00000000",
   "panelInput.border": "#2B2B2B",
   "panelTitle.activeForeground": "#E7E7E7",
   "panelTitle.inactiveForeground": "#9D9D9D",
@@ -138,7 +151,6 @@ export const themeColors = {
 
   // Sidebar
   "sideBar.background": "#00000090",
-  "sideBar.border": "#00000000",
   "sideBar.dropBackground": "#00000000",
   "sideBarSectionHeader.background": "#00000000",
   "sideBar.foreground": colors.mainForeground,

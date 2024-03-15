@@ -31,11 +31,11 @@
 
 /* Scrollbar */
 .scrollbar.horizontal {
-  height: 8px !important; /* Corrected property name from 'hight' to 'height' */
+  height: 8px !important;
 }
 .scrollbar.horizontal .slider {
   border-radius: 9999px !important;
-  height: 8px !important; /* Corrected property name from 'hight' to 'height' */
+  height: 8px !important;
 }
 .scrollbar.vertical {
   width: 8px !important;

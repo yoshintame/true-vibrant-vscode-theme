@@ -1,35 +1,34 @@
 {
-	"name": "true-vibrant",
-	"displayName": "true-vibrant",
-	"description": "True vibrancy theme",
-	"version": "0.0.1",
-	"engines": {
-		"vscode": "^1.87.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"scripts": {
-		"start": "nodemon --watch src src/index.ts",
-		"build": "node src/index.ts && mkdir -p build",
-		"prepublishOnly": "npm run build && vsce publish"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "True Vibrant (Xcode)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/true-vibrant-xcode.json"
-			}
-		]
-	},
-	"dependencies": {
-		"@types/node": "^20.11.25",
-		"nodemon": "^3.1.9",
-		"ts-node": "^10.9.2",
-		"typescript": "^5.4.2"
-	},
-	"__metadata": {
-		"size": 37342
-	}
+  "name": "true-vibrant",
+  "displayName": "true-vibrant",
+  "description": "True vibrancy theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "dev": "ts-node-dev --watch src --respawn src/index.ts",
+    "build": "ts-node src/index.ts && mkdir -p build",
+    "prepublishOnly": "npm run build && vsce publish"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "True Vibrant (Xcode)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/true-vibrant-xcode.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "@types/node": "^20.11.25",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
 }

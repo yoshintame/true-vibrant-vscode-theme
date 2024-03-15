@@ -169,29 +169,19 @@
   },
   "tokenColors": [
     {
-      "scope": [
-        "comment",
-        "punctuation.definition.comment"
-      ],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "foreground": "#A0D07D"
       }
     },
     {
-      "scope": [
-        "punctuation.definition.string",
-        "string"
-      ],
+      "scope": ["punctuation.definition.string", "string"],
       "settings": {
         "foreground": "#FC6A5D"
       }
     },
     {
-      "scope": [
-        "constant.numeric",
-        "keyword.other.unit",
-        "support.constant"
-      ],
+      "scope": ["constant.numeric", "keyword.other.unit", "support.constant"],
       "settings": {
         "foreground": "#D0BF69"
       }
@@ -222,9 +212,7 @@
       }
     },
     {
-      "scope": [
-        "markup.underline.link"
-      ],
+      "scope": ["markup.underline.link"],
       "settings": {
         "foreground": "#6699FF"
       }
@@ -241,9 +229,7 @@
       }
     },
     {
-      "scope": [
-        "meta.object-literal.key"
-      ],
+      "scope": ["meta.object-literal.key"],
       "settings": {
         "foreground": "#72BFAE"
       }
@@ -271,9 +257,7 @@
       }
     },
     {
-      "scope": [
-        "variable.other.constant, meta.definition.variable"
-      ],
+      "scope": ["variable.other.constant, meta.definition.variable"],
       "settings": {
         "foreground": "#FFFFFF"
       }
@@ -311,26 +295,19 @@
       }
     },
     {
-      "scope": [
-        "entity.name.type"
-      ],
+      "scope": ["entity.name.type"],
       "settings": {
         "foreground": "#E5CFFF"
       }
     },
     {
-      "scope": [
-        "entity.name.type.class",
-        "entity.other.inherited-class"
-      ],
+      "scope": ["entity.name.type.class", "entity.other.inherited-class"],
       "settings": {
         "foreground": "#5DD8FF"
       }
     },
     {
-      "scope": [
-        "keyword.operator"
-      ],
+      "scope": ["keyword.operator"],
       "settings": {
         "foreground": "#A167E6"
       }
@@ -348,9 +325,7 @@
       }
     },
     {
-      "scope": [
-        "meta.function-call"
-      ],
+      "scope": ["meta.function-call"],
       "settings": {
         "foreground": "#B281EB"
       }
@@ -395,17 +370,13 @@
       }
     },
     {
-      "scope": [
-        "string.other.link.title.markdown"
-      ],
+      "scope": ["string.other.link.title.markdown"],
       "settings": {
         "foreground": "#DFDFE0"
       }
     },
     {
-      "scope": [
-        "entity.name.section"
-      ],
+      "scope": ["entity.name.section"],
       "settings": {
         "foreground": "#DFDFE0",
         "fontStyle": "bold"
@@ -422,77 +393,57 @@
       }
     },
     {
-      "scope": [
-        "markup.bold"
-      ],
+      "scope": ["markup.bold"],
       "settings": {
         "foreground": "#DFDFE0",
         "fontStyle": "bold"
       }
     },
     {
-      "scope": [
-        "markup.italic"
-      ],
+      "scope": ["markup.italic"],
       "settings": {
         "foreground": "#DFDFE0",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": [
-        "punctuation"
-      ],
+      "scope": ["punctuation"],
       "settings": {
         "foreground": "#DFDFE0"
       }
     },
     {
-      "scope": [
-        "punctuation.decorator",
-        "meta.brace.round"
-      ],
+      "scope": ["punctuation.decorator", "meta.brace.round"],
       "settings": {
         "foreground": "#FFFFFF"
       }
     },
     {
-      "scope": [
-        "entity.other.attribute-name"
-      ],
+      "scope": ["entity.other.attribute-name"],
       "settings": {
         "foreground": "#D0A8FF"
       }
     },
     {
-      "scope": [
-        "meta.tag.without-attributes",
-        "metax.children"
-      ],
+      "scope": ["meta.tag.without-attributes", "metax.children"],
       "settings": {
         "foreground": "#FFFFFF"
       }
     },
     {
-      "scope": [
-        "variable.other.readwrite.alias"
-      ],
+      "scope": ["variable.other.readwrite.alias"],
       "settings": {
         "foreground": "#FFFFFF"
       }
     },
     {
-      "scope": [
-        "punctuation.terminator.statement"
-      ],
+      "scope": ["punctuation.terminator.statement"],
       "settings": {
         "foreground": "#505050"
       }
     },
     {
-      "scope": [
-        "punctuation.accessor.optional"
-      ],
+      "scope": ["punctuation.accessor.optional"],
       "settings": {
         "foreground": "#A167E6"
       }
@@ -532,67 +483,49 @@
       }
     },
     {
-      "scope": [
-        "support.class.dart",
-        "other.source.dart"
-      ],
+      "scope": ["support.class.dart", "other.source.dart"],
       "settings": {
         "foreground": "#E5CFFF"
       }
     },
     {
-      "scope": [
-        "entity.name.function.dart"
-      ],
+      "scope": ["entity.name.function.dart"],
       "settings": {
         "foreground": "#5DD8FF"
       }
     },
     {
-      "scope": [
-        "source.dart"
-      ],
+      "scope": ["source.dart"],
       "settings": {
         "foreground": "#49B7D7"
       }
     },
     {
-      "scope": [
-        "variable.parameter.dart"
-      ],
+      "scope": ["variable.parameter.dart"],
       "settings": {
         "foreground": "#83C9BC"
       }
     },
     {
-      "scope": [
-        "entity.name.type.class.flutter",
-        "source.flutter"
-      ],
+      "scope": ["entity.name.type.class.flutter", "source.flutter"],
       "settings": {
         "foreground": "#E5CFFF"
       }
     },
     {
-      "scope": [
-        "entity.name.function.flutter"
-      ],
+      "scope": ["entity.name.function.flutter"],
       "settings": {
         "foreground": "#5DD8FF"
       }
     },
     {
-      "scope": [
-        "source.flutter"
-      ],
+      "scope": ["source.flutter"],
       "settings": {
         "foreground": "#49B7D7"
       }
     },
     {
-      "scope": [
-        "variable.parameter.flutter"
-      ],
+      "scope": ["variable.parameter.flutter"],
       "settings": {
         "foreground": "#83C9BC"
       }

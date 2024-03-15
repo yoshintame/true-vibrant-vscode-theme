@@ -6,5 +6,5 @@ export const themes: Theme[] = [
   {
     tokens: xcodeTokens,
     colors: trueVibrantColors,
-  },
+  }
 ] as const;

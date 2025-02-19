@@ -1,4 +1,4 @@
-export const name = "Xcode"
+export const name = "Xcode";
 
 export const themeTokens = [
   {

@@ -146,6 +146,10 @@ export const themeColors = {
   "sideBarSectionHeader.foreground": colors.mainForeground,
   "sideBarTitle.foreground": colors.mainForeground,
 
+  // List
+  "list.hoverBackground": "#ffffff20",
+  "list.activeSelectionBackground": "#18497190",
+  "list.inactiveSelectionBackground": "#9f9f9f20",
   // Status Bar
   "statusBar.background": "#00000090",
   "statusBar.border": "#00000000", // Layout border

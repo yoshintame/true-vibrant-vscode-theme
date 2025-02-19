@@ -8,6 +8,10 @@
   background-color: rgba(00, 00, 00, 00) !important;
 }
 
+.monaco-workbench {
+  background: transparent !important;
+}
+
 /* Cursor chat md blocks fix */
 .ai-chat-scrollable .monaco-editor {
   background: transparent !important;

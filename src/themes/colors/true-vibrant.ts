@@ -45,9 +45,6 @@ export const trueVibrantColors: ThemeColors = {
     "list.hoverForeground": "#F5F5F5",
     "list.inactiveSelectionBackground": "#F5F5F515",
     "list.inactiveSelectionForeground": "#F5F5F5",
-    "list.hoverBackground": "#ffffff20",
-    "list.activeSelectionBackground": "#18497190",
-    "list.inactiveSelectionBackground": "#9f9f9f20",
 
     // Settings
     "settings.dropdownBackground": vars.uiItemsBackground,
